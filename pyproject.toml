@@ -1,0 +1,10 @@
+[project]
+name = "velib-orm-j4"
+version = "0.1.0"
+description = "Journée 4 : du SQL à l'ORM avec SQLAlchemy sur la base Vélib'"
+requires-python = ">=3.11"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0",
+    "sqlalchemy>=2.0",
+]
